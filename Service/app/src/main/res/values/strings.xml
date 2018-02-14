@@ -4,4 +4,10 @@
     <string name="username_input">Username</string>
     <string name="login_button">Login</string>
     <string name="signup_button">Signup</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="name_signup">Name</string>
+    <string name="phone_signup">Phone Number</string>
+    <string name="email_signup">Email</string>
+    <string name="password_signup">Password</string>
+    <string name="createaccount_signup">Create Account</string>
 </resources>
