@@ -10,23 +10,31 @@
         android:id="@+id/editText7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="60dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/name_signup"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="71dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editText8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/phone_signup"
-        app:layout_constraintTop_toBottomOf="@+id/editText7"
-        tools:layout_editor_absoluteX="71dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText7" />
 
     <EditText
         android:id="@+id/editText9"
@@ -36,8 +44,10 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/email_signup"
-        app:layout_constraintTop_toBottomOf="@+id/editText8"
-        tools:layout_editor_absoluteX="71dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText8" />
 
     <EditText
         android:id="@+id/editText10"
@@ -47,8 +57,10 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/password_signup"
-        app:layout_constraintTop_toBottomOf="@+id/editText9"
-        tools:layout_editor_absoluteX="71dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText9" />
 
     <Button
         android:id="@+id/button3"
